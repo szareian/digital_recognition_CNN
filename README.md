@@ -26,11 +26,11 @@ __10.__ Loss layer - A softmax function is used to convert the output to a proba
 
 ## Results
 
-The original image given as an input to the system:
+The original image given as an input to the trained model:
 
 <img src='results/Q3.3_image_1_original.jpg'>
 
-The image before being given to CNN forward pass as inout data:
+The image before being given to CNN forward pass as input data:
 
 <img src='results/Q3.3_image_1_input_data.jpg' height='200'>
 
@@ -38,4 +38,4 @@ The following shows the output for the __Loss Layer__ which represent the probab
 
 P = 0.0009 0.0000 0.0388 __0.8451__ 0.0000 0.0000 0.0000 0.0000 0.1152 0.0000
 
-With 84.51% probability, this image was labelled correctly as a 3. 11.52% labelled wrong as an 8.
+With __84.51%__ probability, this image was labelled correctly as a 3. 11.52% labelled wrong as an 8.
